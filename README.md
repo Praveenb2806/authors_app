@@ -1,16 +1,31 @@
-# authors_app
+#  Authors App
 
-A new Flutter project.
+Authors App is a Flutter application that displays a paginated list of authors and their messages using BLoC architecture.
 
-## Getting Started
+This project demonstrates clean state management, cursor-based pagination, search functionality, favourite toggling, and delete operations with confirmation dialogs.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+##  Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- List of authors with profile image
+- Cursor-based pagination (infinite scroll)
+- Search authors by name
+- Mark / Unmark as Favourite
+- Delete author with confirmation dialog
+- Author detail screen
+- Duplicate prevention in pagination
+- Clean BLoC architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Architecture
+
+The project follows:
+
+- BLoC Pattern
+- Repository Pattern
+- Immutable state updates
+- Separation of concerns
+
+
